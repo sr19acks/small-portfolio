@@ -1,0 +1,140 @@
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  /*navbar start */
+  .nav-logo{
+      text-align: left;
+  }
+  .nav-heading h1{
+      text-align: right;
+  }
+  .nav-menu{
+      flex-direction: row;
+      justify-content: flex-end;
+  }
+  .nav-menu a{
+      padding: 5px 10px;
+      margin: 20px 0;
+      background-color: transparent;
+  }
+  /*navbar start */
+
+  /* profile start */
+  .profile .top-weather-icon{
+    position: absolute;
+    width: 120px;
+    right: 100px;
+    top: 20px;
+    transition: width 2s;
+}
+.profile .top-weather-icon:hover{
+    width: 140px;
+}
+.profile-desc p{
+    color: gray;
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 10px;
+    
+}
+.profile .bottom-weather-icon{
+    position: absolute;
+    left: 140px;
+    bottom: 20px;
+    transition: width 2s;
+    width: 120px;
+}
+.profile .bottom-weather-icon:hover{
+    width: 140px;
+}
+
+
+.profile::after{
+    display: table;
+    clear: both;
+    content: '';
+}
+
+
+  /*profile start */
+
+  /* about me start */
+
+  .aboutme-image{
+      margin-top: 100px;
+  }
+  .aboutme-image img{
+      height: 270px;
+      width: 250px;
+      float: right;
+      margin: 100px;
+
+  }
+  .aboutme-desc p{
+      text-align: left;
+      
+  }
+
+
+
+  /* about me end */
+
+  /* professional experience start */
+  .professional-experience{
+      padding: 1% 5%;
+  }
+  
+  /* professional experience end */
+  /* achievement and contact start */
+  .achievement{
+      padding-right: 50px;
+  }
+  .hi{
+      width: 350px;
+      margin: 0;
+      padding: 0;
+  }
+  .bt{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+
+  }
+  
+  
+.contact-links{
+    position: relative;
+}
+.media-buttons{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 200px;
+}
+/* achievement and contact end */
+/* footer start */
+.footer-desc{
+    float: right;
+    margin-top: 12px;
+    
+}
+.footer-menu a{
+    left: 0;
+    float: left;
+    background-color: lightsteelblue;
+}
+/* footer end */
